@@ -1,0 +1,338 @@
+/* You can add global styles to this file, and also import other style files */
+//@import './assets/styles/theme.scss';
+.dialog {
+  bottom: 41px !important;
+}
+.dialog .container .dialogContainer {
+  min-width: 550px !important;
+  top: 21px !important;
+}
+/* Add application styles & imports to this file! */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import 'node_modules/angular2-toaster/src/toaster';
+.oc-label-1{
+font-weight: 700;
+}
+.mat-raised-button{
+margin: 5px 2px 6px 0px;
+margin: 6px;
+}
+.modelHeader{
+margin: 0px 0px 0px 0px;
+background-color: #537286;
+height: 35px;
+color: white;
+}
+.dialogContainer .closeIcon{
+margin: -20px 0px 0px 0px;
+}
+.cdk-global-overlay-wrapper, .cdk-overlay-container { z-index: 9999!important; } 
+.mat-form-field .mat-form-field-infix {
+ display: block;
+  position: inherit;
+ flex: auto;
+ min-width: 0;
+ width: 180px;
+}
+.dialogContainer{
+.content{
+ padding: 24px;
+  
+}
+.closeIcon svg{
+  margin-top: 24px;
+}
+}
+.b-f-r-m-45{
+float:right;
+margin: 0px -45px 0px 0px !important;
+}
+.c-m-0{
+  margin: 0px 0px 0px -10px !important;
+}
+.flex-container1{
+padding: 24px 0px 0px 0px !important;
+}
+.p-r-8{
+padding-right: 8px !important;
+}
+.b-f-r-m-r-15{
+float:right;
+margin-right: -15px !important;
+} 
+
+.dialog .backOverlay{
+background-color: "#cfcfcf";
+}
+.dialog .backOverlay{
+background-color: rgba(0,0,0,0.5) !important;
+}
+.dropdown{
+margin: 10px 0px 0px 0px;
+}
+.dateClass{
+margin: 0px 0px 0px -40px;
+}
+.nav-tabs[_ngcontent-qcy-c15] li[_ngcontent-qcy-c15] a[_ngcontent-qcy-c15]{
+margin: 10px;
+}
+.btn-link:hover{
+columns:black;
+}
+.btn-link{
+color: #6F2C91;
+}
+.nav-tabs[_ngcontent-ylo-c15] li[_ngcontent-ylo-c15] a[_ngcontent-ylo-c15]{
+margin: 10px !important;
+}
+a:not([href]):not([class]){
+padding-right: 15px !important;
+}
+.p-l-r-20{
+padding: 0px 5% 0px 5%;
+}
+.back-nav{
+margin: 0px !important;
+button{
+  color:blueviolet !important;
+  background-color: white !important;
+   background: white;
+   outline-color:white !important;
+span.mat-button-wrapper > span{
+  font-size: 18px;
+  text-transform: none;
+}
+ span.mat-button-wrapper .icon-before{
+  width: 40px;
+  height: 25px;
+ }
+}
+}
+.header-btn{
+margin: 0px !important;
+width: min-content !important;
+button{
+  padding: 0px 15px 0px 15px !important;
+  color:blueviolet !important;
+  background-color: white !important;
+   background: white;
+   outline-color:white !important;
+span.mat-button-wrapper > span{
+  text-transform: none;
+}
+}
+}
+.table {
+  #divTable{
+    overflow: inherit !important;
+  }
+}
+
+.ds-table{
+table td{
+  padding: 0px 0px 0px 40px !important;
+}
+}
+.dis-b-p-t{
+.mat-form-field{
+  display: block;
+}
+
+padding-top: 20px;
+}
+.p-t-25{
+padding-top: 25px;
+}
+.m-t-15{
+  margin: 15px 0px 0px 0px !important;
+}
+
+
+// DataProcess Screen new styles 
+.css-1ldv35v .container{
+  padding-left: 0px !important;
+}
+.css-1tumaij .container{
+  padding-left: 0px !important;
+}
+.p-t-10{
+  padding-top: 10px;
+}
+.p-r-8{
+  padding-right: 8px !important;
+}
+.p-t-r-b-l{
+  padding: 24px 24px 24px 24px !important;
+}
+.p-t-20{
+  padding-top: 20px;
+}
+.m-t-24{
+  margin:24px 0px 0px 0px !important;
+}
+.d-f{
+  display: flex;
+}
+.p-l-50-m-t-19{
+  padding-left: 50px;
+  margin:19px 0px 0px 0px !important;
+}
+.m-t-24-m-l-50{
+  margin:24px 0px 0px 50px !important
+}
+.p-t-25-p-l{
+  padding-top: 25px;
+  padding-left: 160px;
+}
+.spn-cls{
+  position: absolute;
+}
+.mat-icon-cls{
+  margin-left: 5px !important;
+  position: absolute !important;
+}
+.spn-cls2{
+  margin-left: 40px;
+}
+.m-16{
+  margin:16px 0px 16px 0px !important;
+}
+.m-t-5{
+  margin-top:5px
+}
+.p-l-30{
+  // padding-left: 30px;
+  margin-left:30px !important;
+  // margin-top:-13px  !important;
+  margin-top:12px  !important
+}
+.custom-file-upload {
+  border: 0px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+input[type="file"] {
+  display: none;
+}
+.m-l-250{
+  margin:15px 0px 0px 250px !important;
+}
+.m-t-29-m-l-50{
+  margin:29px 0px 0px 50px !important
+}
+.m-t-36{
+  margin:36px 0px 0px 0px !important;
+}
+.m-t-36-m-l-30{
+  margin:36px 0px 0px 30px !important;
+}
+.m-t-24-m-l-30{
+  margin:24px 0px 0px 30px !important;
+}
+.p-t-3-m-l{
+  margin-left:190px !important;
+  padding-top:3px
+}
+.flex-container-p-t{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 20px;
+}
+.f-r{
+  float: right;
+}
+.oc-label-1{
+  font-weight: 700;
+}
+.b-2{
+  border: 2px solid #cfcfcf;
+}
+.f-r-m-t-15{
+    float:right;
+    margin-top:-15px;
+}
+.p-l{
+  padding-left:0px
+}
+.m-t-7-m-l-50{
+margin-left: -50px !important;
+margin-top:-7px !important
+}
+.m-l-30-m-t-0{
+  margin-left: 30px !important;
+  margin-top:0px !important
+}
+.p-l-50-m-t-10{
+  padding-left: 50px;
+  margin-top:10px !important;
+}
+.m-l-50{
+  margin-left: 50px !important;
+}
+.m-l-90{
+  margin-left: 90px !important;
+}
+.f-a{
+  flex: auto;
+}
+.table-row-m-0{
+  margin: 0px 0px 0px 0px !important;
+}
+.schema-m-0{
+  margin:  0px 0px 0px 0px !important;
+}
+.m-t-10-m-b-16{
+  margin-top: 10px !important;
+  margin-bottom: 16px !important;
+}
+// Database details
+.m-t-60{
+  margin-top: 60px !important;
+}
+
+// catalog css
+.flex-containerc{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.tabs{
+  margin-top:30px ;
+}
+.w-500{
+  width:500px
+}
+#content{
+  height: auto;
+  margin:15px;
+}
+.margin-b{
+  margin-bottom: 20px;
+}
+.flex-container-end{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.createBtn{
+  margin-bottom: 10px;
+}
+.m-r-15{
+  margin-right:-15px !important;
+}
+.m-t-90{
+  margin-top:-90px !important
+}
+.m-0 {
+  margin: 0px 0px 0px 0px !important;
+}
+.m-w {
+  width:inherit !important;
+}
+.m-t-20{
+  margin: 20px 0px 0px 0px !important;
+}
+.float-r{
+float: right;
+}
