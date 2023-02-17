@@ -1,5 +1,5 @@
 
-FROM node:10.16.0-alpine
+FROM node:18-alpine
 
 RUN apk add --update git bash openssh curl chromium ruby ruby-full
 
